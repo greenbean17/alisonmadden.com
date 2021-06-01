@@ -19,7 +19,7 @@ theme: jekyll-text-theme # Gem-based Jekyll Themes
 text_skin: dark # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://www.alisonmadden.com # the base hostname & protocol for your site e.g. https://www.someone.com
-baseurl : https://alisonmadden.com # does not include hostname
+baseurl : # does not include hostname
 title   : Alison Madden
 description: > # this means to ignore newlines until "Language & timezone"
   description will go here
