@@ -64,6 +64,11 @@ paths:
   home    : # home layout url, "/" (default)
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
+  music   : /music
+  dj      : /dj
+  gallery : /gallery
+  dargomic: /dargomic
+  links   : /links
 
 
 ## => Post
