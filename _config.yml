@@ -36,7 +36,7 @@ author:
   name      : my name
   url       :
   avatar    : # path or url of avatar image (square)
-  bio       : bio goes ere
+  bio       : bio goes here
   email     :
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
@@ -64,11 +64,6 @@ paths:
   home    : # home layout url, "/" (default)
   ##archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
-  music   : /music
-  dj      : /dj
-  gallery : /gallery
-  dargomic: /dargomic
-  links   : /links
 
 
 ## => Post
