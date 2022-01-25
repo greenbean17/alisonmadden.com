@@ -8,25 +8,27 @@ header:
 docs-en:
   - title:      Blog
     children:
-      - title:  Quick Start
-        url:    /docs/en/quick-start
-      - title:  Structure
-        url:    /docs/en/structure
+      - title:  Latest
+        url:    /latest.html
+      - title:  First
+        url:    /first.html
   - title:      Audio
     children:
       - title:  Music
-        url:    /docs/en/configuration
+        url:    /music/
       - title:  Samples
-        url:    /docs/en/navigation
+        url:    /samples/
       - title:  SFX
-        url:
+        url:    /sfx/
       - title:  Patches
-        url:
-        
+        url:    /patches/
   - title:      Visual
     children:
       - title:  3D
-        url:
+        url:    /3d/
       - title:  2D
-        url:
+        url:    /2d/
   - title:      Software
+    children:
+      - title:  VSTs
+        url:    /vst/
