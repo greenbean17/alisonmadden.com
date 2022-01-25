@@ -10,10 +10,12 @@ h {
   margin: 150px;
 }
 
-<html>
 <center>
+<header>
 <h4>001: The Ur-Post</h4>
 <h6>January 25, 2022. Tuesday. Afternoon.</h6>
+</header>
+<body>
 <p>
 Hi, my name is Alison. At the moment, I am 21 years old. I live in New York (City), as I have for most of my life. 
 I'm huge nerd, a big ol' dweeb, a bit of a dork, even. You'll see soon enough, especially once I get on the topic of audio engineering. 
@@ -39,5 +41,5 @@ pretty shit at html, lol. Oh look, I've dropped the formal tone already! Eh, it 
 So, yeah. That's about it for now. Do I need to put line breaks after each paragraph? Who knows! Sure, I could just google it, but where's the fun in that? 
 I'll find out once I hit that little green "Commit new file" button below. Good luck to me!
 </p>
+</body>
 </center>
-</html>
