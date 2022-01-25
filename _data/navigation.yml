@@ -5,7 +5,7 @@ header:
   - title: About
     url: /about.html
 
-docs-en:
+sb:
   - title:      Blog
     children:
       - title:  Latest
