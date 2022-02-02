@@ -1,0 +1,157 @@
+---
+layout: article
+title: "005"
+permalink: /005
+---
+<head>
+ <link rel="stylesheet" href="posts.css">
+</head>
+<header>
+  <h4>Studying Hardcore</h4>
+  <h6>It's nearly noon. I have much more important things to do today than this but I'm really hungover after seeing Dorian Electra live last night (which was awesome btw).</h6>
+</header>
+<body>
+  <p>
+    So, a few days ago I decided I was fed up with not being able to make hardcore techno and I resolved to practice making hardcore kicks more often. That day I made three, 
+    and I've made a couple each day since. I've never successfully done one of those "do ___ every day for a month" challenges you see on the internet but this is the closest 
+    I've ever gotten, so I'm proud of myself. This feels doable. It only takes me like 30 minutes to make a kick or two. I can do that every day. Let's see how long I can keep 
+    up my streak!
+  </p>
+  <p>
+    Below I will talk a little about my process because, though the last few posts might have fooled you, this is ostensibly what this blog is for. Now I just gotta look up how to 
+    embed media with html and we'll be on our way. Also, I should note that I'm using the same four-on-the-floor, single-pitch pattern for each kick for the sake of consistency:
+  </p>
+  <iframe src="https://drive.google.com/file/d/1U9v0ArDMxviGOyhZMkNFw24xgwNfu3CO/preview" width="640" height="480" allow="autoplay"></iframe>
+  <br>
+  <h6>HC Kick 01, E, 192bpm</h6>
+  <p>
+    So, I watched <a href="https://youtu.be/A5CBnVqDOLg">this video</a> before starting so that I could have some idea of how to approach making a hardcore kick. I found it rather 
+    helpful and while I didn't try to make the exact same kick as the guy in the video, I did originally copy the amplitude envelope he used (before tweaking it later), as well 
+    as his distortion mode of choice in iZotope Trash 2. Here's the <a href="https://vital.audio/">Vital</a> I used as a base for the kick:
+  </p>
+  <iframe src="https://drive.google.com/file/d/158o4-4MiUzSDMvTJdEF9kGKSVGQlc6dk/preview" width="640" height="480" allow="autoplay"></iframe>
+  <p>
+    Pretty basic stuff, just a sine wave with an amplitude envelope on it (using an LFO so it can sync to BPM) and a pitch envelope beginning at +48 semitones and rapidly going to 0. 
+    It doesn't sound like much until the Trash goes on it, but after that you're cooking with gas. The first Trash uses the Clip Control distortion model with the drive and tension 
+    curve turned almost all the way up. The second one uses the same Clip Control but adds a Tape Saturation with a very specific drive value that lends it a lot of high end.
+  </p>
+  <iframe src="https://drive.google.com/file/d/1FIGbw57e5B4lIsxhLSCtbWJsAMo-Yt2r/preview" width="640" height="480" allow="autoplay"></iframe>
+  <p>
+    In between the two Trash instances I put a rather extreme EQ curve, an idea I took from the video. Best I can tell, the extreme resonant peaks are crucial for attaining that 
+    "modern hardcore" sound.
+  </p>
+  <iframe src="https://drive.google.com/file/d/10_leULWMHnWN8MffwN-_4ibXEyRHJsIL/preview" width="640" height="480" allow="autoplay"></iframe>
+  <p>
+    I added a second EQ after the last Trash for some final tweaks.
+  </p>
+  <iframe src="https://drive.google.com/file/d/1QwSIxJ57n5rxuDB_VDTjTj5pTr2XZpPE/preview" width="640" height="480" allow="autoplay"></iframe>
+  <p>
+    And here's what it wound up sounding like:
+  </p>
+  <iframe src="https://drive.google.com/file/d/1h5VBT9lELqpQgW2im_Gt9trMQXsfV50J/preview" width="640" height="480"></iframe>
+  <p>
+    Now that you get the gist of what I'm doing, I'm gonna go through the next ones faster.
+  </p>
+  <br>
+  <h6>HC Kick 02, F, 210bpm</h6>
+  <p>
+    The fx chain: 
+    <iframe src="https://drive.google.com/file/d/1llxx9NIhIY-JdKcaNuREjV5_vn-AXEDT/preview" width="640" height="480" allow="autoplay"></iframe>
+    The Vital patch:
+    <iframe src="https://drive.google.com/file/d/1R74H0Jss4q7czHTF-cbSYtcF_Wd5d6CX/preview" width="640" height="480" allow="autoplay"></iframe>
+    Trash, part 1:
+    <iframe src="https://drive.google.com/file/d/13yE7CO5L1i7Ns42zILrO-kzvdrDWqi0R/preview" width="640" height="480" allow="autoplay"></iframe>
+    Trash, part 2:
+    <iframe src="https://drive.google.com/file/d/1fK_BkyuVxuZcycJKJrNE-alnwYoSFFm6/preview" width="640" height="480" allow="autoplay"></iframe>
+  </p>
+  <p>
+    I decided to go for something cleaner-sounding this time. The extra oscillator in Vital adds just a bit more harmonic content, and while the EQ might not look like much, the 
+    15hz high-pass filter and <1 DBFS dip/bump at 1k/2k actually make a pretty big difference when it comes to the high end. Moving on to Trash, almost all the distortion happens 
+    in the first instance. Two pretty-intense distortion curves result in a pretty beefy sound, and I dialed the drive in to the sweet-spot of clarity. I then add a notch filter 
+    to cut out the upper bass frequencies (centered on 116hz), followed by a rather subtle Trash instance using Clip Control to level everything out again. This high-bass cut 
+    allows the sub-bass frequencies to stand out more and gets rid of some icky muddiness.
+  </p>
+  <p>
+    Here's what it sounds like:
+    <iframe src="https://drive.google.com/file/d/1B_GlBxdbgBvITfTdT2U8iqPjJiDrK7Iu/preview" width="640" height="480"></iframe>
+  </p>
+  <br>
+  <h6>HC Kick 03, D, 180bpm</h6>
+  <p>
+    This time around, I wanted to make something slower, heavier, and darker. I should mention now that all the "live" versions of these fx chains only work at a specific tempo 
+    and pitch, and I need to bounce them if I want to change the tempo/pitch.
+  </p>
+  <p>
+    The fx chain for this one is a little more involved:
+    <iframe src="https://drive.google.com/file/d/1GpaUMH_xSGhzDnuHGyBmBEkGIhylkXLr/preview" width="640" height="480" allow="autoplay"></iframe>
+    The vital patch is primarily a sine wave with a little bit of its 2nd harmonic, mixed with a teensy bit of a pulse-width-modulated square wave for some edge. It's sent to Trash 
+    (of course) for some fuzz and saturation. The effect rack contains a quite resonant EQ at about 40% wet, emphasizing the 35hz and 2.27khz frequencies. Side note, my default Audio 
+    Effect Rack has two chains, each with a 
+    Utility, with the chains' mixes mapped to a macro inversely to each-other. I can't emphasize enough how useful this is for effects that don't have a built-in dry/wet knob. 
+    Anyways, the signal then heads to an instance of BigClipper, a plugin I absolutely ADORE from Boz Digital Labs that, you guessed it, clips the signal.
+    <iframe src="https://drive.google.com/file/d/1u-E82EsNqJSDN4EdH5zPPbYy9DoBau-d/preview" width="640" height="480" allow="autoplay"></iframe>
+    The reason I love BigClipper so much is for its bevy of options for tweaking the clipping algorithm. I won't go into too much detail about it here, but the flexibility it gains 
+    from its depth of customization means it can go on pretty much anything and sound great, from synths to guitar to drums, and even vocals! (No, Boz has not paid me to say this.)
+  </p>
+  <p>
+    Getting back on track, the reason for this clipping is that it emphasizes the resonance from the EQ massively, leading to a rather distinct sound. I then use a Faturator to 
+    add some dirt with its drive parameter and tone down the highs with its color parameter. Then comes another extreme EQ, adding resonant peaks in the bass (74hz) and 
+    mids (587hz). A final Trash rounds out the sound with a Clip Control for those sweet, sweet crunchy highs. 
+    Here's what it sounds like:
+    <iframe src="https://drive.google.com/file/d/1iIVcV5JoyU0hUfetJPVXIqh3uN7RjePg/preview" width="640" height="480" allow="autoplay"></iframe>
+  </p>
+  <br>
+  <h6>HC Kick 04, C#-G#, 220bpm</h6>
+  <p>
+    So, what I said earlier about these kicks only working at a specific pitch wasn't entirely true. (Don't tell anyone, but there's actually an F# version of #03!) 
+    This time, the kick works across a range of 7 semitones. It also sounds pretty much the same as low as 180bpm and as high as 350+. I didn't bounce examples of each variation, 
+    but just trust me on this. While I made 001 through 003 in one sitting, I made this one yesterday. I was ruminating on the wish to work in Ableton more consistently (as per 
+    my last post). Though I very much did not have the energy to do anything serious, I decided making one kick would be easy enough, and I'd be able to say I at least did 
+    <i>something</i> music-related that day. Because I was super-not-feeling-it, this one ended up being pretty simple, which I suspect is why it wound up being so flexible. 
+    I won't post a screenshot of the fx chain because it's nothing special, just Vital, BigClipper, Trash, EQ Eight, and Trash again. The Vital patch is super basic, the only 
+    thing distinguishing it being an envelope on the wavetable (an almost-sine and adds harmonics) to give it some extra bite on the attack. The BigClipper clips it, the first 
+    Trash clips it further, the EQ is just one resonant peak at 408hz, and the second Trash clips it again and adds some fuzz. I think it came out nicely. Simplicity is often 
+    a boon.
+    <iframe src="https://drive.google.com/file/d/1JikdNrNOOYp0TWInHdzFM4DQslukDoBo/preview" width="640" height="480"></iframe>
+    <iframe src="https://drive.google.com/file/d/14QG5QRBv68vFE0mxBU6jBjKPrqANUpjE/preview" width="640" height="480"></iframe>
+  </p>
+  <br>
+  <h6>HC Kick 05, E, 200bpm</h6>
+  <p>
+    Rounding out today's selection is the kick I made just before writing this post. I decided to switch it up a bit this time. I still used Vital for the base signal because Vital 
+    is just so good for knocking patches out quickly and it's much more stable than a certain other wavetable synth 👀. Buuuuuut I used SerumFX for the main bit of distortion this 
+    time! Exciting! Anyways, the Vital patch is a bit different too. I used separate oscillators for the "tok" (the transient) and the "bow" (the tail). For the tok, in addition to 
+    the standard sine wave, I also used frame 111 of this funky wavetable called "tip the scales" from the Afro folder. (IDK if those come standard or are exclusive to the premium 
+    version of Vital.) I really liked how much harmonic content this table added to the sound, giving it some resonance right off the bat.
+    <iframe src="https://drive.google.com/file/d/1LruESd63vz20xmnA0bZGh7t5YKsectxr/preview" width="640" height="480" allow="autoplay"></iframe>
+    The bow is pretty straighforward, just a triangle wave with a healthy cut right before the quarter-note loop to make the transient clearer at high tempos.
+    <iframe src="https://drive.google.com/file/d/1JO6DnzxftTKbTDhKcGiyOrM1l1jDK2Tl/preview" width="640" height="480" allow="autoplay"></iframe>
+  </p>
+  <p>
+    Next is a low-pass filter with a rather resonant peak. The extra resonance is nice, and the filter tames the high end a bit in preparation for distortion. Said distortion, done 
+    in SerumFX, is coupled with some multiband compression and a comb filter. The distortion uses the "Diode 1" model, and is actually pretty tame. Most of the work is done by the 
+    compressor, in which I clip the shit out of the signal by turning the gain all the way up, and some extra roughness is added by setting the release to 0.0ms. Then, the comb 
+    filter, with its cutoff at 167hz, adds a ton of (what sounds like but probably isn't technically) noise, cuts the low end significantly, and adds some feedback, giving the effect 
+    a time-based component. Because I'm using a time-based effect, using this kick in a project without resampling simply isn't an option, but that's ok.
+  </p>
+  <p>
+     I then give it the ol' resonant EQ treatment, along with a high-pass filter. Next comes a +3 semitone formant shift, courtesy of Manipulator. This isn't stricly necessary for 
+     the sound, I just liked it. An insightful explanation, I know. Anyway, last comes BigClipper to smush it all together into one tight package, much needed after the formant 
+     shift. Here's what it sounds like:
+     <iframe src="https://drive.google.com/file/d/1SgNXkvGS9v4EWxYvfoO2Sht1kfMLxppK/preview" width="640" height="480"></iframe>
+     ...And an alternative version without the formant shift + clipping:
+     <iframe src="https://drive.google.com/file/d/1ZDte4tGsMbng4qLRwwqXO5stvoFAUwuj/preview" width="640" height="480"></iframe>
+    I think I'm the proudest of this one so far. It has a distinct, for lack of a better word, edge, that sets it apart from the rest. It sounds like it's screaming (:
+  </p>
+  <p>
+    So, that's what I've got so far. I'm really looking forward to continuing my hardcore kick journey. I may be pretty early into it, but so far it's been rather liberating when it 
+    comes to my DAW use. I've always been a stickler for gain staging. I'm always quick to correct clipping when it happens at any point in the signal chain, and I must admit it hurts 
+    me a little when I'm sent a live set and I see red everywhere. But I threw all that out the window for this. I chose not to give a shit about those red meters since I'm decimating 
+    the signal anyway, and I think it might make it easier for me to dislodge the stick from my ass when I'm looking at other people's gain staging. I hope so, that thing's really 
+    uncomfortable!
+  </p>
+  <p>
+    Well, that's it for now. I'll probably make another post in a few weeks, assuming I have more kicks to show off. I don't think I'll go into such detail regarding their creation, 
+    however. This was a good excersize, but it has taken me like an hour and a half to write this up, and I don't know if I want to do it all over again for the same topic. We'll see.
+  </p>
+</body>
