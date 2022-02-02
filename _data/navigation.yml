@@ -6,7 +6,7 @@ header:
     url: /about.html
 
 sb:
-  - title:      Blog
+  - title:      Blog (NONE OF THESE LINKS GO TO ANYTHING YET, BTW!)
     children:
       - title:  Latest
         url:    /latest.html
